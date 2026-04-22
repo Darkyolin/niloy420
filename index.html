@@ -8,18 +8,15 @@
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-    :root {
-      --bg: #0d0d0d;
-      --surface: #161616;
-      --border: #2a2a2a;
-      --accent: #c8f55a;
-      --accent2: #f5c85a;
-      --text: #e8e8e0;
-      --muted: #888880;
-      --serif: 'DM Serif Display', Georgia, serif;
-      --mono: 'DM Mono', monospace;
-      --sans: 'Instrument Sans', sans-serif;
-    }
+   :root {
+  --bg: #e0f2fe;        /* light blue background */
+  --surface: #bae6fd;   /* slightly darker light blue */
+  --border: #7dd3fc;    /* soft blue border */
+  --accent: #0ea5e9;    /* main blue */
+  --accent2: #38bdf8;   /* lighter blue */
+  --text: #0f172a;      /* dark text (important for readability) */
+  --muted: #475569;     /* gray-blue text */
+}
 
     html { scroll-behavior: smooth; }
 
@@ -29,6 +26,7 @@
       font-family: var(--sans);
       min-height: 100vh;
       overflow-x: hidden;
+      background: linear-gradient(135deg, #e0f2fe, #bae6fd);
     }
 
     /* ── NOISE OVERLAY ── */
